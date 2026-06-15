@@ -1,4 +1,3 @@
-/* 1. การตั้งค่าทั่วไปของหน้าเว็บ (body) */
 body {
     font-family: Arial, sans-serif; /* ตั้งค่าฟอนต์หลัก */
     line-height: 1.6; /* ระยะห่างระหว่างบรรทัดเพื่อให้ง่ายต่อการอ่าน */
@@ -8,7 +7,6 @@ body {
     color: #333; /* สีตัวอักษรหลัก */
 }
 
-/* 2. ส่วนหัว (header) */
 header {
     background: #4CAF50; /* สีพื้นหลังของส่วนหัว */
     color: white; /* สีข้อความ */
@@ -24,7 +22,6 @@ header p {
     margin: 5px 0 0; /* ตั้งค่าระยะห่างของข้อความรอง */
 }
 
-/* 3. ส่วนเนื้อหา (section) */
 section {
     padding: 20px;
     margin: 20px auto;
@@ -39,7 +36,6 @@ h2 {
     color: #4CAF50; /* สีของหัวข้อ */
 }
 
-/* 5. ส่วนแสดงโปรเจกต์ (.project) */
 .project {
     margin-bottom: 20px;
 }
@@ -49,13 +45,11 @@ h2 {
     color: #333;
 }
 
-/* 6. รายการทักษะ (ul) */
 ul {
     list-style-type: square; /* ใช้จุดสี่เหลี่ยมแทนจุดกลม */
     padding-left: 20px;
 }
 
-/* 7. ส่วนท้าย (footer) */
 footer {
     text-align: center;
     padding: 10px 0;
